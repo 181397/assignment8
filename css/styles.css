@@ -1,2 +1,52 @@
 @charset "utf-8";
 /* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+}
+
+body {
+	background-color: #E496A4;
+}
+
+h3 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.container {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background-color: #938282;
+	padding: 10px;
+}
+
+.reservation {
+	margin-top: 40px;
+}
+
+.jumbotron {
+	background-color: #615E5E;
+	color: #FFFFFF;
+}
+
+.btn-lg {
+	background-color: #E496A4;
+}
+
+.menu {
+	height: 175px;
+	
+}
+
+.jumbotron {
+	background-image: url("../images/restaurant.jpg");
+	background-size: cover;
+	background-position: bottom;
+	
+}
