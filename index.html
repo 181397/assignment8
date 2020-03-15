@@ -11,6 +11,9 @@
 	
 	<!-- Own CSS -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -35,12 +38,12 @@
 		</nav>
 			<!-- Jessie's suhsi and grill -->
 	<header>
-		<div class="jumbotron">
+		<div class="jumbotron" id="banner">
   			<h1 class="display-4">Jessie's sushi place</h1>
  			<p class="lead">The best place for an enjoyable evening out.</p>
   			<hr class="my-4">
   			<p>To see what we offer click on the button below.</p>
-  			<a class="btn btn-primary btn-lg" href="menu.html" role="button">Our menu</a>
+			<a href="menu.html" class="btn btn-secondary btn-lg active reservation" role="button" aria-pressed="true">Our menu</a>
 		</div>
 	</header>
 			<!-- first impression -->
@@ -51,7 +54,7 @@
 				<img src="images/sushi.jpg" alt="sushi" class="img-fluid">
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-6">
-				<h3>The place to eat sushi</h3>
+				<h2>The place to eat sushi</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis justo purus, et iaculis turpis tristique suscipit. Cras quam lorem, pretium ut urna nec, rhoncus condimentum mauris. Nullam a enim rhoncus, euismod odio in, tempus velit. Integer vitae eros dui. Duis nec diam vehicula, finibus leo vel, blandit mauris. Donec id nibh sit amet ex posuere pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultrices finibus orci, a eleifend ligula vulputate sed.</p>
 			</div>
 		</div>
@@ -62,7 +65,7 @@
 		<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-9 col-lg-8">
-				<h3>Opening hours</h3>
+				<h2>Opening hours</h2>
 				<p>Mondays: 16:30–22:00 - Tuesdays: 16:30–22:00 - Wednesdays: 16:30–22:00 - Thursdays: 16:30–22:00 - Fridays: 16:30–22:30 - Saturdays: 12:30–22:30 - Sundays: 12:30–22:30</p>
 			</div>
 			
@@ -81,7 +84,7 @@
 </body>
 	
 	<!-- copyright -->
-<footer class="jumbotron mb-0 text-right">
+<footer class="jumbotron mb-0 text-right" id="page-end">
 		<p>&copy;Jessie van Balkom 2020</p>
 </footer>
 </html>
